@@ -7,6 +7,14 @@ body {
 /* This is ideal for anything larger than mobile */
 	width: 25%;
 	float: left;
+	padding-left: 1vw;
+}
+
+@media screen and (max-width: 670px) {
+	#logo {
+		padding-left: 0.5vw;
+	}
+
 }
 
 .LMB_head_txt {
