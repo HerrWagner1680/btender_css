@@ -1,0 +1,71 @@
+body {
+	font-family: sans-serif;
+	padding: 1vw;
+}
+
+#logo {
+/* This is ideal for anything larger than mobile */
+	width: 25%;
+	float: left;
+}
+
+.LMB_head_txt {
+/* This is ideal for anything larger than mobile */
+	display: inline-block;
+	float: left;
+	font-size: 7vw;
+	font-weight: lighter;
+	letter-spacing: 2pt;
+	margin-top: 1vw;
+	margin-bottom: 0.5vw;
+	padding-left: 3.5vw;
+	color: purple;
+}
+
+@media screen and (max-width: 570px) {
+	/* if viewport is under 570px */
+	.LMB_head_txt {
+		font-size: 6vw;
+		padding-left: 4.5vw;
+	}
+}
+
+div.underline {
+	height: 4px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: purple;
+}
+
+ul {
+	color: #777;
+	font-size: 2.8vw;
+	letter-spacing: 1px;
+	margin-top: 8px;
+	padding: 0px;
+}
+
+.header_buttons {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+
+#supplies_background {
+	background: #f78e42;
+	color: #fff;
+    text-shadow:
+	   -1px -1px 0 #888,  
+	    1px -1px 0 #888,
+	    -1px 1px 0 #888,
+	     1px 1px 0 #888;
+	font-size: 3vw;
+	letter-spacing: 3px;
+	text-align: center;
+	height: 50vh;
+	width: 100%;
+}
+
+#supplies_background p {
+	padding-top: 22vh;
+}
